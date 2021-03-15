@@ -141,7 +141,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Development',
-      items: ['use-the-network/devices/development/development', 'use-the-network/devices/development/st-b-l072z-lrwan1/st-b-l072z-lrwan1', 'use-the-network/devices/development/sparkfun-pro-rf/sparkfun-pro-rf', 'use-the-network/devices/development/adafruit-feather-m0-rfm95/adafruit-feather-m0-rfm95', 'use-the-network/devices/development/heltec-cubecell-htcc-ab01/heltec-cubecell-htcc-ab01', 'use-the-network/devices/development/heltec-wifi-lora-32-v2/heltec-wifi-lora-32-v2', 'use-the-network/devices/development/rak-wisblock-starter/rak-wisblock-starter'],
+      items: ['use-the-network/devices/development/development', 'use-the-network/devices/development/st-b-l072z-lrwan1/st-b-l072z-lrwan1', 'use-the-network/devices/development/sparkfun-pro-rf/sparkfun-pro-rf', 'use-the-network/devices/development/adafruit-feather-m0-rfm95/adafruit-feather-m0-rfm95', 'use-the-network/devices/development/heltec-cubecell-htcc-ab01/heltec-cubecell-htcc-ab01', 'use-the-network/devices/development/heltec-wifi-lora-32-v2/heltec-wifi-lora-32-v2', 'use-the-network/devices/development/rak-wisblock-starter/rak-wisblock-starter', 'use-the-network/devices/development/seeedstudio-lora-e5-dev-board/seeedstudio-lora-e5-dev-board'],
       collapsed: false,
     },
   ],
@@ -254,5 +254,18 @@ module.exports = {
       items: ['use-the-network/devices/development/heltec-wifi-lora-32-v2/arduino'],
       collapsed: false,
     },
-  ]
+  ],
+  seeedstudiolorae5devboard: [
+   {
+      type: 'link',
+      label: '<- SeeedStudio Lora-E5 Dev Board',
+      href: '/use-the-network/devices/development/seeedstudio-lora-e5-dev-board'
+   },
+   {
+      type: 'category',
+      label: 'Firmware',
+      items: ['use-the-network/devices/development/seeedstudio-lora-e5-dev-board/arduino'],
+      collapsed: false,
+   },
+  ],
 };
